@@ -1,4 +1,6 @@
-# Creates a special "matrix" object that can cache inverse of the input matrix
+##  Creates a special "matrix" object that can cache inverse of the input matrix
+##  x is the input matrix
+##  inverseMat is the inverse of matrix x 
 
 makeCacheMatrix <- function(x = matrix()) {
   inverseMat <- matrix(0,0,0)
